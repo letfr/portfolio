@@ -1,0 +1,18 @@
+nav{
+  padding-top: 30px;
+  grid-column: 8 / span 5;
+}
+
+.nav-item{
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+  
+.nav-item:hover{
+  color: #a6aa9c;
+  font-weight: 700;
+}

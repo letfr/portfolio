@@ -1,0 +1,5 @@
+.h1-content{
+    padding-bottom: 40px;
+    text-align: center;
+    grid-column: 1 / span 11;
+  }

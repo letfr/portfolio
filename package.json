@@ -1,5 +1,5 @@
 {
-  "homepage": "http://leticianfaria.github.io/portfolio",
+  "homepage": "http://leticianfaria.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -26,6 +26,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "ws": "3.3.2"
   }
 }
