@@ -1,15 +1,15 @@
 {
-  "main.css": "/portfolio/static/css/main.98cd706b.chunk.css",
-  "main.js": "/portfolio/static/js/main.23bec55d.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.23bec55d.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.1cc5fe30.chunk.css",
+  "main.js": "/portfolio/static/js/main.a058db2a.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.a058db2a.chunk.js.map",
   "static/js/1.7258aa49.chunk.js": "/portfolio/static/js/1.7258aa49.chunk.js",
   "static/js/1.7258aa49.chunk.js.map": "/portfolio/static/js/1.7258aa49.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/css/main.98cd706b.chunk.css.map": "/portfolio/static/css/main.98cd706b.chunk.css.map",
-  "static/media/App.css": "/portfolio/static/media/background-intro.68ea51e4.jpg",
+  "static/css/main.1cc5fe30.chunk.css.map": "/portfolio/static/css/main.1cc5fe30.chunk.css.map",
+  "static/media/App.css": "/portfolio/static/media/background-mobile.4752ab61.jpg",
   "static/media/mockup.png": "/portfolio/static/media/mockup.916c59bf.png",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.3fa12312e1b18b867136686ab0056d3f.js": "/portfolio/precache-manifest.3fa12312e1b18b867136686ab0056d3f.js",
+  "precache-manifest.ca681ff1b100feaf015960fb74d6615e.js": "/portfolio/precache-manifest.ca681ff1b100feaf015960fb74d6615e.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
