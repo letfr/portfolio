@@ -34,7 +34,7 @@ class IntroContent extends Component {
 
 function Intro() {
   return(
-    <Section id="intro" className="intro grid">
+    <Section id="intro" className="intro">
       <NavBar />
       <IntroContent />
     </Section>
@@ -43,7 +43,7 @@ function Intro() {
 
 function About() {
   return(
-    <Section id="about" className="about grid">
+    <Section id="about" className="about">
       <H1Content>About me</H1Content>
       <p>Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus aenean vel elit scelerisque. Ante in nibh mauris cursus mattis molestie a iaculis at. Iaculis at erat pellentesque adipiscing commodo elit. 
       <br /> <br />
