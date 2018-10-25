@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/mockup.916c59bf.png"
   },
   {
+    "revision": "61cbb8166512d516850dc2d249e2f1db",
+    "url": "/portfolio/static/media/leticia.61cbb816.jpg"
+  },
+  {
     "revision": "4752ab61581065a0c2a5fce594f235a0",
     "url": "/portfolio/static/media/background-mobile.4752ab61.jpg"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "452d4fcefe18377b7d51",
-    "url": "/portfolio/static/js/main.452d4fce.chunk.js"
+    "revision": "c90fc0b065cf9f0f91c1",
+    "url": "/portfolio/static/js/main.c90fc0b0.chunk.js"
   },
   {
-    "revision": "7258aa498efb1b5b3320",
-    "url": "/portfolio/static/js/1.7258aa49.chunk.js"
+    "revision": "199adb90dabc95179208",
+    "url": "/portfolio/static/js/1.199adb90.chunk.js"
   },
   {
-    "revision": "452d4fcefe18377b7d51",
-    "url": "/portfolio/static/css/main.3b09a38a.chunk.css"
+    "revision": "c90fc0b065cf9f0f91c1",
+    "url": "/portfolio/static/css/main.9262e0a5.chunk.css"
   },
   {
-    "revision": "5a3c584469efbb9d54efbdef9e5e92b0",
+    "revision": "45531aa58c0c634f3db7c2631044924b",
     "url": "/portfolio/index.html"
   }
 ];
