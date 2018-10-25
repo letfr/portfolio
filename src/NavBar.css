@@ -1,16 +1,20 @@
 nav{
-  padding: 30px 60px;
+  padding: 30px 180px;
   align-self: flex-end;
+  display: flex;
 }
 
 .nav-item{
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  text-decoration: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
   letter-spacing: 2px;
-  color: #000;
-  font-size: 14px;
-  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
 }
   
 .nav-item:hover{

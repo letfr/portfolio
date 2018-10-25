@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import './NavBar.css';
+import ScrollIntoView from 'react-scroll-into-view';
 
 function NavItem(props) {
   return (
-    <a href={props.url} className="nav-item">{props.children}</a>
+    <button className="nav-item">{props.children}</button>
   )
 }
 
@@ -11,13 +12,15 @@ class NavBar extends Component {
   constructor(props){
     super(props);
     this.state = {
-      links: ["about", "skills", "portfolio", "contact"]
+      links: ["about", "skills", "portfolio", "contact"],
+      }
     }
-  }
+
   render() {
     return (
     <nav>
-      {this.state.links.map((item, index) => <NavItem url={"#" + item} key={index}>{item}</NavItem>)}
+      {this.state.links.map((item, index) => <ScrollIntoView selector={"#" + item}><NavItem key={index}>{item}</NavItem>
+      </ScrollIntoView>)}
     </nav>
     )
   }
