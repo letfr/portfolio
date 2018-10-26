@@ -1,17 +1,17 @@
 {
-  "main.css": "/portfolio/static/css/main.63eb6b03.chunk.css",
-  "main.js": "/portfolio/static/js/main.eea218b5.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.eea218b5.chunk.js.map",
+  "main.css": "/portfolio/static/css/main.16928a0e.chunk.css",
+  "main.js": "/portfolio/static/js/main.18a7ac4b.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.18a7ac4b.chunk.js.map",
   "static/js/1.07ac37bc.chunk.js": "/portfolio/static/js/1.07ac37bc.chunk.js",
   "static/js/1.07ac37bc.chunk.js.map": "/portfolio/static/js/1.07ac37bc.chunk.js.map",
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
-  "static/media/index.css": "/portfolio/static/media/background-intro.f3cf96b9.jpg",
+  "static/media/index.css": "/portfolio/static/media/background-mobile.4752ab61.jpg",
   "static/media/leticia.jpg": "/portfolio/static/media/leticia.61cbb816.jpg",
   "static/media/cv.pdf": "/portfolio/static/media/cv.77720c88.pdf",
   "static/media/mockup.png": "/portfolio/static/media/mockup.916c59bf.png",
-  "static/css/main.63eb6b03.chunk.css.map": "/portfolio/static/css/main.63eb6b03.chunk.css.map",
+  "static/css/main.16928a0e.chunk.css.map": "/portfolio/static/css/main.16928a0e.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.4c10fb0b3dc9b83f573728631e54bc9e.js": "/portfolio/precache-manifest.4c10fb0b3dc9b83f573728631e54bc9e.js",
+  "precache-manifest.cc90bf7f458606534c5d840c77e642c6.js": "/portfolio/precache-manifest.cc90bf7f458606534c5d840c77e642c6.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
