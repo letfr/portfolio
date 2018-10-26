@@ -1,11 +1,11 @@
-nav {
+nav{
   padding: 30px 180px;
   align-self: flex-end;
   display: flex;
 }
 
-.nav-item {
-  font-family: "Raleway", sans-serif;
+.nav-item{
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   background-color: transparent;
   padding: 10px 20px;
@@ -16,10 +16,8 @@ nav {
   letter-spacing: 2px;
   border-bottom: 1px solid transparent;
 }
-
-.nav-item:hover {
+  
+.nav-item:hover{
   color: #a6aa9c;
   font-weight: 700;
 }
-
-/*# sourceMappingURL=NavBar.css.map */

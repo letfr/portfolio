@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import './App.css';
 import Section from './Section.js';
 import NavBar from './NavBar.js';
 import Image from './Image.js';
@@ -61,7 +60,7 @@ function About() {
         <i>"Those who can imagine anything, can create the impossible."</i> 
         <small> - Alan Turing;</small>
 
-        <Button className="btn">VIEW CV</Button>
+        <a target="_blank" href={require("./cv.pdf")} ><Button className="btn">VIEW CV</Button></a>
         </p>
       </div>
       </Fade>
@@ -161,7 +160,7 @@ class Portfolio extends Component {
       <Fade bottom>
         <H1Content>My works</H1Content>
         <div className="container">
-        <a className="live-view" href={this.state.url}>
+        <a target="_blank" className="live-view" href={this.state.url}>
           <Image className="mockup" src={require('./assets/mockup.png')} /> 
           <Image className="image" src={this.state.imgSrc} />
         </a>
@@ -184,14 +183,15 @@ function Contact() {
       <H1Content>Contact me</H1Content>
       <div>
         <p>You can send me an email at
-          <a href="#">leticianfaria@hotmail.com</a>
+          <a href="mailto:leticianfaria@hotmail.com">leticianfaria@hotmail.com</a>
         </p>
         <p>You can find me on
-          <a href="https://github.com/leticianfaria">Github</a>
-          <a href="https://linkedin.com/in/leticianfaria">LinkedIn</a>
+          <a target="_blank" href="https://github.com/leticianfaria">Github</a>
+          <a target="_blank" href="https://linkedin.com/in/leticianfaria">LinkedIn</a>
         </p>
       </div>
       </Fade>
+
     </Section>
   );
 }

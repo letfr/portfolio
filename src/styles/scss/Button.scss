@@ -1,4 +1,4 @@
-.works {
+.works{
   margin-top: 40px;
   background-color: transparent;
   padding: 10px 20px;
@@ -12,20 +12,17 @@
   position: relative;
   z-index: -999;
 }
-
-.works:hover {
+  
+.works:hover{
   border-bottom: 1px solid #DED8C3;
   font-weight: 700;
 }
 
-@media only screen and (min-device-width: 0) and (max-device-width: 560px) {
+@media only screen and (min-device-width : 0) and (max-device-width : 560px) {
   .works:first-child {
     margin-top: 130px !important;
   }
-
   .works {
     margin-top: 0 !important;
   }
 }
-
-/*# sourceMappingURL=Button.css.map */
