@@ -72,6 +72,14 @@ h2 {
   font-weight: 700;
 }
 
+.btn-cv {
+  border: 1px dashed #DED8C3;
+  font-weight: 700;
+}
+.btn-cv:hover {
+  background-color: #DED8C3;
+}
+
 .portfolio {
   position: relative;
   height: 580px;
@@ -163,7 +171,6 @@ h2 {
   text-decoration: none;
   font-size: 14px;
   margin-top: 10px;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 .contact ahover {
@@ -229,7 +236,7 @@ footer a {
   }
 
   .about p {
-    padding: 0 60px;
+    padding: 60px 0;
   }
 
   .intro {
@@ -252,8 +259,12 @@ footer a {
     font-size: 30px;
   }
 
-  #portfolio, #contact {
+  #contact {
     padding: 40px 0;
+  }
+
+  #portfolio {
+    padding-top: 40px !important;
   }
 
   #skills {
@@ -269,7 +280,7 @@ footer a {
   }
 
   .mockup {
-    width: 80%;
+    width: 90%;
   }
 
   .image {
@@ -281,6 +292,7 @@ footer a {
   .works-options, #contact div, .skills-content, .about-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   #contact div {
@@ -300,24 +312,27 @@ footer a {
   font-size: 14px;
   cursor: pointer;
   letter-spacing: 2px;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px dashed #DED8C3;
   top: 260px;
   position: relative;
   z-index: -999;
 }
-
 .works:hover {
   border-bottom: 1px solid #DED8C3;
   font-weight: 700;
 }
 
-@media only screen and (min-device-width: 0) and (max-device-width: 560px) {
+@media only screen and (min-device-width: 0) and (max-device-width: 740px) {
   .works:first-child {
-    margin-top: 130px !important;
+    margin-top: -120px !important;
   }
 
   .works {
     margin-top: 0 !important;
+  }
+
+  .works-options {
+    flex-direction: column;
   }
 }
 .h1-content {
@@ -347,6 +362,12 @@ nav {
 .nav-item:hover {
   color: #a6aa9c;
   font-weight: 700;
+}
+
+@media only screen and (min-device-width: 0) and (max-device-width: 740px) {
+  nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -9,6 +9,7 @@
     "react": "^16.5.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.5.2",
+    "react-responsive-navbar": "^1.0.11",
     "react-reveal": "^1.2.2",
     "react-scripts": "2.0.5",
     "react-scroll-into-view": "^1.5.0"

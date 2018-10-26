@@ -19,7 +19,7 @@ class NavBar extends Component {
   render() {
     return (
     <nav>
-      {this.state.links.map((item, index) => <ScrollIntoView selector={"#" + item}><NavItem key={index}>{item}</NavItem>
+      {this.state.links.map((item, index) => <ScrollIntoView id="menu" selector={"#" + item}><NavItem key={index}>{item}</NavItem>
       </ScrollIntoView>)}
     </nav>
     )

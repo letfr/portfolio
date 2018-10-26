@@ -73,6 +73,14 @@ h2{
   }
 }
 
+.btn-cv{
+  border: 1px dashed #DED8C3;
+  font-weight: 700;
+  &:hover{
+    background-color: #DED8C3;
+  }
+}
+
 .portfolio{ 
   position: relative;
   height: 580px;
@@ -163,7 +171,6 @@ h2{
     text-decoration: none;
     font-size: 14px;
     margin-top: 10px;
-    text-transform: uppercase;
     letter-spacing: 2px;
     &hover{
     color: #a6aa9c;
@@ -224,7 +231,7 @@ footer{
     padding: 0;
   }
   .about p{
-    padding: 0 60px;
+    padding: 60px 0;
   }
   .intro {
     background-image: url("./assets/background-mobile.jpg");
@@ -242,8 +249,11 @@ footer{
   .typewrite {
     font-size: 30px;
   }
-  #portfolio, #contact {
+  #contact {
     padding: 40px 0;
+  }
+  #portfolio {
+    padding-top: 40px !important;
   }
   #skills {
     padding: 100px 0;
@@ -256,7 +266,7 @@ footer{
     display: none;
   }
   .mockup {
-    width: 80%;
+    width: 90%;
   }
   .image {
     width: 35%;
@@ -266,6 +276,7 @@ footer{
   .works-options, #contact div, .skills-content, .about-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   #contact div {
     padding-top: 30px;

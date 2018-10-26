@@ -60,7 +60,7 @@ function About() {
         <i>"Those who can imagine anything, can create the impossible."</i> 
         <small> - Alan Turing;</small>
 
-        <a target="_blank" href={require("./cv.pdf")} ><Button className="btn">VIEW CV</Button></a>
+        <a target="_blank" href={require("./cv.pdf")} ><Button className="btn btn-cv">VIEW CV</Button></a>
         </p>
       </div>
       </Fade>
@@ -186,8 +186,8 @@ function Contact() {
           <a href="mailto:leticianfaria@hotmail.com">leticianfaria@hotmail.com</a>
         </p>
         <p>You can find me on
-          <a target="_blank" href="https://github.com/leticianfaria">Github</a>
-          <a target="_blank" href="https://linkedin.com/in/leticianfaria">LinkedIn</a>
+          <a target="_blank" href="https://github.com/leticianfaria">GITHUB</a>
+          <a target="_blank" href="https://linkedin.com/in/leticianfaria">LINKEDIN</a>
         </p>
       </div>
       </Fade>

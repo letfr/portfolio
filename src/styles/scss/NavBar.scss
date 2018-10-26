@@ -21,3 +21,9 @@ nav{
   color: #a6aa9c;
   font-weight: 700;
 }
+
+@media only screen and (min-device-width : 0) and (max-device-width : 740px) {
+  nav {
+    display: none;
+  }
+}
