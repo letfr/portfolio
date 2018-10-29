@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import ScrollIntoView from 'react-scroll-into-view';
 import Section from './Section.js';
 import NavBar from './NavBar.js';
 import Image from './Image.js';
@@ -159,7 +160,7 @@ class Portfolio extends Component {
       <Section id="portfolio" className="portfolio">
       <Fade bottom>
         <H1Content>My works</H1Content>
-        <div className="container">
+        <div className="container image-mockup">
         <a target="_blank" className="live-view" href={this.state.url}>
           <Image className="mockup" src={require('./assets/mockup.png')} /> 
           <Image className="image" src={this.state.imgSrc} />
@@ -190,6 +191,7 @@ function Contact() {
           <a target="_blank" href="https://linkedin.com/in/leticianfaria">LINKEDIN</a>
         </p>
       </div>
+      <ScrollIntoView selector="#intro"><button className="btn">SCROLL TOP</button></ScrollIntoView>
       </Fade>
 
     </Section>
