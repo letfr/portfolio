@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:400,600');
+@import 'variables';
 
 *{
   box-sizing: border-box;
@@ -7,12 +7,12 @@
 }
 
 h1, h2{
-  font-family: 'Playfair Display', serif;
+  font-family: $font;
   font-weight: 500;
 }
 
 p, a, small{
-  font-family: 'Raleway', sans-serif;
+  font-family: $font-secondary;
 }
 
 a{
@@ -68,16 +68,16 @@ h2{
   display: block;
   margin: 30px auto 0 auto;
   &:hover{
-    border-bottom: 1px solid #DED8C3;
+    border-bottom: 1px solid $secondary-color;
     font-weight: 700;
   }
 }
 
 .btn-cv{
-  border: 1px dashed #DED8C3;
+  border: 1px dashed $secondary-color;
   font-weight: 700;
   &:hover{
-    background-color: #DED8C3;
+    background-color: $secondary-color;
   }
 }
 
@@ -115,7 +115,7 @@ h2{
   width: 200px;
   height: 200px;
   position: relative;
-  background-color: #F5EFE3;
+  background-color: $primary-color;
 }
 
 .skills-content, .works-options, .contact div, .about-content{
@@ -125,6 +125,7 @@ h2{
 
 .sub-skill{
   margin-left: 20px;
+  color: #5a5a5a;
 }
 
 .skills {
@@ -132,7 +133,7 @@ h2{
   -webkit-clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 20%);
   -ms-clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 20%);
   clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 20%);
-  background-color: #F5EFE3;
+  background-color: $primary-color;
   line-height: 1.6;
   small{
   font-size: 16px;
@@ -264,6 +265,9 @@ footer{
     -webkit-clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 10%);
     -ms-clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 10%);
     clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 10%);
+  }
+  .sub-skill {
+    margin-left: 0;
   }
   nav {
     display: none;

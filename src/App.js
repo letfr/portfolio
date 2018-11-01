@@ -125,6 +125,8 @@ class Portfolio extends Component {
     this.handleClick = this.handleClick.bind(this);
 
     this.state = {
+      imgSrc: './ecommerce.png',
+      url: 'https://ecommerce-spa.herokuapp.com/',
       buttons: ["E-COMMERCE", "CHAT", "SOCIAL NETWORK", "DASHBOARD", "FOODMAP", "TWITTER"]
     }
   }

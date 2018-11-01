@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Raleway:400,600");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|=Raleway");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -114,7 +114,7 @@ h2 {
   width: 200px;
   height: 200px;
   position: relative;
-  background-color: #F5EFE3;
+  background-color: rgba(245, 239, 227, 0.925);
 }
 
 .skills-content, .works-options, .contact div, .about-content {
@@ -124,6 +124,7 @@ h2 {
 
 .sub-skill {
   margin-left: 20px;
+  color: #5a5a5a;
 }
 
 .skills {
@@ -131,7 +132,7 @@ h2 {
   -webkit-clip-path: polygon(0px 100%, 100% 100%, 100% 0px, 0px 20%);
   -ms-clip-path: polygon(0px 100%, 100% 100%, 100% 0px, 0px 20%);
   clip-path: polygon(0px 100%, 100% 100%, 100% 0px, 0px 20%);
-  background-color: #F5EFE3;
+  background-color: rgba(245, 239, 227, 0.925);
   line-height: 1.6;
 }
 .skills small {
@@ -276,6 +277,10 @@ footer a {
     -webkit-clip-path: polygon(0px 100%, 100% 100%, 100% 0px, 0px 10%);
     -ms-clip-path: polygon(0px 100%, 100% 100%, 100% 0px, 0px 10%);
     clip-path: polygon(0px 100%, 100% 100%, 100% 0px, 0px 10%);
+  }
+
+  .sub-skill {
+    margin-left: 0;
   }
 
   nav {
