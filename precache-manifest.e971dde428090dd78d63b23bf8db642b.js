@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/mockup.916c59bf.png"
   },
   {
-    "revision": "61cbb8166512d516850dc2d249e2f1db",
-    "url": "/portfolio/static/media/leticia.61cbb816.jpg"
+    "revision": "cddedf03b3c6f643a7cbf12fef236308",
+    "url": "/portfolio/static/media/leticia.cddedf03.jpeg"
   },
   {
     "revision": "5d1cd4f5bac73140608a81151928b5da",
@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "0ef33e650fcc2a4ec336",
-    "url": "/portfolio/static/js/main.0ef33e65.chunk.js"
+    "revision": "f5df03f80e9d52a9a592",
+    "url": "/portfolio/static/js/main.f5df03f8.chunk.js"
   },
   {
     "revision": "d4ef2065b26d01f6ca90",
     "url": "/portfolio/static/js/1.d4ef2065.chunk.js"
   },
   {
-    "revision": "0ef33e650fcc2a4ec336",
+    "revision": "f5df03f80e9d52a9a592",
     "url": "/portfolio/static/css/main.feb23f0e.chunk.css"
   },
   {
-    "revision": "d41f722dba986627d95e59000dba7027",
+    "revision": "1e8c9897d7f652bdac2ba16c00e2d5e6",
     "url": "/portfolio/index.html"
   }
 ];
