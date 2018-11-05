@@ -53,7 +53,7 @@ function About() {
       <H1Content>About me</H1Content>
       <div className="about-content">
         <div className="about-img-container">
-          <Image className="about-img" src={require('./assets/leticia.jpg')} />
+          <Image className="about-img" src={require('./assets/leticia.jpeg')} />
         </div>
         <p>Hey! My name is Letícia Faria and I'm 21. I'm a Front-end developer and a tech lover. 
         I believe that with dedication and hard work all ours goals can be reached. I like learning new things and finding creative ways to solve problems. 
@@ -125,9 +125,9 @@ class Portfolio extends Component {
     this.handleClick = this.handleClick.bind(this);
 
     this.state = {
-      imgSrc: './ecommerce.png',
-      url: 'https://ecommerce-spa.herokuapp.com/',
-      buttons: ["E-COMMERCE", "CHAT", "SOCIAL NETWORK", "DASHBOARD", "FOODMAP", "TWITTER"]
+      imgSrc: './dashboard.png',
+      url: 'https://leticianfaria.github.io/data-dashboard/',
+      buttons: ["DASHBOARD", "E-COMMERCE",  "TWITTER", "CHAT", "LAB WINE", "FOODMAP"]
     }
   }
 
@@ -143,9 +143,9 @@ class Portfolio extends Component {
     } else if (type === "CHAT") {
       imgSrc = './chat.png';
       url = 'https://chat-maluco.herokuapp.com/';
-    } else if (type === "SOCIAL NETWORK") {
+    } else if (type === "LAB WINE") {
       imgSrc = './social-network.png';
-      url = 'https://rede-social-e1d56.firebaseapp.com/';
+      url = 'https://leticianfaria.github.io/rede-social/';
     } else if (type === "FOODMAP") {
       imgSrc = './foodmap.png';
       url = 'https://leticianfaria.github.io/foodmap/';
