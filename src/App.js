@@ -127,16 +127,16 @@ class Portfolio extends Component {
     this.state = {
       imgSrc: './dashboard.png',
       url: 'https://leticianfaria.github.io/data-dashboard/',
-      buttons: ["DASHBOARD", "E-COMMERCE",  "TWITTER", "CHAT", "LAB WINE", "FOODMAP"]
+      buttons: ["DASHBOARD", "NEWS-POCKET",  "TWITTER", "CHAT", "LAB WINE", "FOODMAP"]
     }
   }
 
   handleClick(type) {
     let imgSrc = "";
     let url = "";
-    if (type === "E-COMMERCE") {
-      imgSrc = './ecommerce.png';
-      url = 'https://ecommerce-spa.herokuapp.com/';
+    if (type === "NEWS-POCKET") {
+      imgSrc = './news-pocket.png';
+      url = 'https://news-pocket.herokuapp.com/';
     } else if (type === "DASHBOARD") {
       imgSrc = './dashboard.png';
       url = 'https://leticianfaria.github.io/data-dashboard/';
