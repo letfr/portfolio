@@ -74,7 +74,7 @@ class Skills extends Component {
     super(props);
 
     this.state = {
-      front: ["HTML", "CSS", "Bootstrap", "Materialize", "SASS", "Javascript", "Vanilla", "jQuery", "React", "Web APIs", "Gulp", "Responsive Design"],
+      front: ["HTML", "CSS", "Bootstrap", "Materialize", "SASS", "LESS", "Javascript", "Vanilla", "jQuery", "React", "Web APIs", "Gulp", "Responsive Design"],
       back: ["Node.js", "express.js", "socket.io", "mocha & chai", "Database", "SQL", "Firebase"],
       uxui: ["Wireframing", "Prototyping", "Usability", "Visual Communication"]
     }
@@ -89,7 +89,7 @@ class Skills extends Component {
           <div>
             <h2>Front-End</h2>
             {this.state.front.map((item, index) => {
-              if (item !== "Bootstrap" && item !== "Materialize" && item !== "Vanilla" && item !== "jQuery") {
+              if (item !== "Bootstrap" && item !== "Materialize" && item !== "SASS" && item !== "LESS" && item !== "Vanilla" && item !== "jQuery") {
                 return <p key={index}>{item}</p>
               } else {
                 return <small key={index} className="sub-skill">{item}</small>
