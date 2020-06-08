@@ -1,39 +1,47 @@
 {
-  "homepage": "http://leticianfaria.github.io/portfolio/",
-  "name": "portfolio",
+  "name": "portfolio-letfr",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "animate.css": "^3.7.0",
-    "node-sass": "^4.9.4",
-    "react": "^16.5.2",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-dom": "^16.5.2",
-    "react-responsive-navbar": "^1.0.11",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "2.0.5",
-    "react-scroll-into-view": "^1.5.0"
-  },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "sass": "sass --watch src/styles/scss:src/"
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "animate.css": "^3.7.0",
+    "react": "^16.13.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.13.0",
+    "react-responsive-navbar": "^1.0.11",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.0",
+    "react-scroll-into-view": "^1.5.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-app-rewire-eslint": "^0.2.3",
+    "react-app-rewired": "^2.1.5",
+    "react-scripts": "^3.2.0",
+    "react-snap": "^1.23.0"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "ws": "3.3.2"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

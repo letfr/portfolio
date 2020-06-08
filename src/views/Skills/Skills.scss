@@ -1,0 +1,14 @@
+.skills-content {
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  padding: 140px 197px 80px 197px;
+  -webkit-clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 20%);
+  -ms-clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 20%);
+  clip-path: polygon(0px 100%,100% 100%,100% 0px,0px 20%);
+  background-color: #f5efe3ec;
+  line-height: 1.6;
+}

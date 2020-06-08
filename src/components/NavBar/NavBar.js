@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './NavBar.css';
+import './NavBar.scss';
 import ScrollIntoView from 'react-scroll-into-view';
 
 function NavItem(props) {
@@ -15,15 +15,17 @@ class NavBar extends Component {
       links: ["about", "skills", "portfolio", "contact"],
       }
     }
-
+    
   render() {
     return (
     <nav>
-      {this.state.links.map((item, index) => <ScrollIntoView id="menu" selector={"#" + item}><NavItem key={index}>{item}</NavItem>
+      {this.state.links.map((item, index) =>
+      <ScrollIntoView id="menu" selector={"#" + item}>
+        <NavItem key={index}>{item}</NavItem>
       </ScrollIntoView>)}
     </nav>
     )
-  }
-}
+  };
+};
 
 export default NavBar;
