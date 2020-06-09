@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Fade from "react-reveal/Fade";
 import ScrollIntoView from 'react-scroll-into-view';
+import './Contact.scss'
 
 class Contact extends Component {
   render() {

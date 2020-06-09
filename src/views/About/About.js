@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import Fade from "react-reveal/Fade";
+import './About.scss'
 
   class About extends Component {
     render() {
@@ -8,21 +9,36 @@ import Fade from "react-reveal/Fade";
       return (
       <section id="about" className="about">
         <Fade bottom>
-        <h1>About me</h1>
         <div className="about-content">
-          <div>
-          <p> {data.aboutme}
-          <i>{data.quote.text}</i> 
-          <small> - {data.quote.author};</small>
-          </p>
-
-          <a target="_blank" rel="noopener noreferrer" href={require("../../assets/files/cv-pt.pdf")} >VIEW CV</a>
-          <a target="_blank" rel="noopener noreferrer" href={require("../../assets/files/cv-en.pdf")} >VIEW CV</a>
+          <div className="about-text">
+            <h1 className="h1-content">About me</h1>
+            <div>
+              <p> {data.aboutme} </p>
+              <i>{data.quote.text} <small> - {data.quote.author};</small></i>
+              
+            </div>
+        
+            <div className="box-buttons">
+              <a 
+              className="btn btn-cv"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              href={require("../../assets/files/cv-pt.pdf")} >
+              VIEW CV (pt-BR)
+              </a>
+              <a 
+              className="btn btn-cv"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              href={require("../../assets/files/cv-en.pdf")} >
+              VIEW CV (en-US)
+              </a>
+            </div>
           </div>
-          <div className="about-img-container">
-            <img className="about-img" src={require('../../assets/img/namaste-girl.png')} alt=""/>
+        
+          <div className="icon-girl">
+            <img src={require('../../assets/img/namaste-girl.png')} alt="namaste-girl"/>
           </div>
-          
         </div>
       </Fade>
     </section>

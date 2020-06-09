@@ -1,10 +1,12 @@
 nav{
   padding: 30px 180px;
-  align-self: flex-end;
   display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
 }
 
 .nav-item{
+  color:  #fff;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   background-color: transparent;

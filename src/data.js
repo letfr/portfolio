@@ -16,66 +16,33 @@ let data = {
       "url": "https://codepen.io/letfr",
     }
   ],
-  "aboutme": "Hey! My name is Letícia Faria and I'm 21. I'm a Front-end developer and a tech lover. I believe that with dedication and hard work all ours goals can be reached. I like learning new things and finding creative ways to solve problems.",
+  "aboutme": "Hi! I'm a front-end developer passionate about inovation, technology and art, based in São Paulo - Brazil. I build applications focused in quality and usability. I like learning new things and finding creative ways to solve problems. At the free time you can find me drinking coffee, doing yoga or visiting some exhibition.",
   "quote": {
     "text": "Those who can imagine anything, can create the impossible.",
     "author": "Alan Turing",
   },
-  // "address": "São Paulo - Brasil",
-  // "education": [{
-  //     "UniversityName": "The LNM Insitute of Information Technology",
-  //     "specialization": "Some specialization",
-  //     "MonthOfPassing": "Aug",
-  //     "YearOfPassing": "2020",
-  //     "Achievements": "Some Achievements"
-  //   },
-  //   {
-  //     "UniversityName": "Some University",
-  //     "specialization": "Some specialization",
-  //     "MonthOfPassing": "Jan",
-  //     "YearOfPassing": "2018",
-  //     "Achievements": "Some Achievements"
-  //   }
-  // ],
-  // "work": [{
-  //     "CompanyName": "Some Company",
-  //     "specialization": "Some specialization",
-  //     "MonthOfLeaving": "Jan",
-  //     "YearOfLeaving": "2018",
-  //     "Achievements": "Some Achievements"
-  //   },
-  // ],
-  // "skills": [{
-  //     "skillname": "HTML5"
-  //   },
-  //   {
-  //     "skillname": "CSS"
-  //   },
-  //   {
-  //     "skillname": "Reactjs"
-  //   }
-  // ],
-  // "projects": [{
-  //     "name": "project1",
-  //     "description": "mobileapp",
-  //     "imgurl": "images/portfolio/phone.jpg"
-  //   },
-  //   {
-  //     "name": "project2",
-  //     "description": "mobileapp",
-  //     "imgurl": "images/portfolio/project.jpg"
-  //   },
-  //   {
-  //     "name": "project3",
-  //     "description": "mobileapp",
-  //     "imgurl": "images/portfolio/project2.png"
-  //   },
-  //   {
-  //     "name": "project4",
-  //     "description": "mobileapp",
-  //     "imgurl": "images/portfolio/phone.jpg"
-  //   }
-  // ],
+  "address": "São Paulo - Brasil",
+  "skills": {
+    development: ["HTML", "CSS [+ SASS ]", "JAVASCRIPT [+ TYPESCRIPT ]", "VUE.JS [+ VUEX ]", "REACT [+ REDUX ]", "NODE.JS", ],
+    testing: ["MOCHA & CHAI", "JEST", "CYPRESS"],
+  },
+  "projects": [{
+    "name": "DASHBOARD",
+  }, 
+  {
+    "name": "NEWS-POCKET",
+  },
+  {
+    "name": "CHAT",
+  },
+  {
+    "name": "LAB WINE",
+  },
+  {
+    "name": "FOOD MAP",
+  }
+
+  ],
 }
 
 export default data;

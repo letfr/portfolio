@@ -1,0 +1,27 @@
+
+@import '../../styles/variables.scss';
+
+#about {
+  p {
+    margin-bottom: 20px;
+  }
+
+  .icon-girl {
+    background-color: #AC6B53;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+  }
+
+  .box-buttons {
+    display: flex;
+  }
+}

@@ -24,14 +24,3 @@ npm start
 npm run build
 ```
 
-### Run unit tests
-
-```bash
-npm run test
-```
-
-### Lints and fixes files
-
-```bash
-npm run lint
-```

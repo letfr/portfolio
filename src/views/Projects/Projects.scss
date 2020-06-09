@@ -1,0 +1,25 @@
+
+.portfolio{ 
+  position: relative;
+  height: 580px;
+}
+
+.mockup{
+  max-width: 45%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 999;
+  left: 27%;
+}
+
+.works{
+  margin-top: 300px;
+  position: relative;
+  z-index: -999;
+  border-bottom: 1px dashed #32586E;
+  &:hover{
+    border-bottom: 1px solid #32586E;
+    font-weight: 800;
+  }
+}

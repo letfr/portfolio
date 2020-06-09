@@ -1,1 +1,219 @@
-@import "App";
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: $font;
+  font-weight: 300;
+}
+
+p, a, small, i {
+  font-family: $font-secondary;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+i { 
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.h1-content {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border-bottom: 1px solid transparent;
+  display: block;
+  margin: 30px auto 0 auto;
+  outline: none;
+}
+
+.btn-cv{
+  font-weight: 400;
+  color: #000;
+  background-color: #D5C7B9;
+  &:hover{
+    color: #fff;
+    background-color: #AC6B53;
+  }
+}
+
+.icon-girl {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 130px;
+    height: 152px;
+  }
+}
+
+.portfolio, .contact {
+  padding: 80px 197px;
+}
+
+.about {
+  padding: 40px 197px;
+  p{
+    line-height: 1.4;
+  }
+}
+
+.skills-content, .works-options, .contact div, .about-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  position: relative;
+  display: block;
+}
+
+.image {
+  width: 35%;
+  top: 15px;
+  left: 32%;
+  position: absolute;
+}
+
+footer {
+  background-color: #5A5A5A;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+  color: #fff;
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .intro-content {
+    padding: 100px 0;
+  }
+  .h1-intro {
+    font-size: 44px;
+  }
+  .typewrite {
+    font-size: 36px;
+  }
+  .mockup {
+    left: 25%;
+  }
+  .image {
+    left: 30%;
+  }
+}
+
+@media only screen and (min-device-width : 0) and (max-device-width : 560px) {
+  h1{
+    font-size: 38px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .typewrite{
+    font-size: 28px !important;
+  }
+  #intro, #about, #portfolio, #contact {
+    padding: 0;
+  }
+  .about p{
+    padding: 60px 0;
+  }
+  .intro {
+    background-color: #32586E;
+    background-size: cover;
+    background-position: left;
+    -webkit-clip-path: polygon(0px 100%,100% 90%,100% 0px,0px 0px);
+    -ms-clip-path: polygon(0px 100%,100% 90%,100% 0px,0px 0px);
+    clip-path: polygon(0px 100%,100% 90%,100% 0px,0px 0px);
+  }
+  .intro-content {
+    padding: 280px 0;
+    align-self: center;
+    color: #fff;
+  }
+  .h1-intro {
+    font-size: 38px;
+  }
+  .typewrite {
+    font-size: 30px;
+  }
+  #contact {
+    padding: 40px 0;
+  }
+  #portfolio {
+    margin: 40px 0 !important;
+  }
+  nav {
+    display: none;
+  }
+  .mockup {
+    max-width: 80%;
+    left: 10%;
+  }
+  .image {
+    width: 62%;
+    left: 19%;
+    margin-top: -5px;
+  }
+  .image-mockup {
+    margin-bottom: 120px;
+  }
+  .works-options, #contact div, .skills-content, .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact div {
+    padding-top: 30px;
+  }
+  #contact p {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-device-width : 0) and (max-device-width : 740px) {
+  .works:first-child {
+    margin-top: -120px !important;
+  }
+  .works {
+    margin-top: 0 !important;
+  }
+  .works-options {
+    flex-direction: column;
+  }
+}
