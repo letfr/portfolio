@@ -10,25 +10,22 @@ class Projects extends Component {
       this.handleClick = this.handleClick.bind(this);
   
       this.state = {
-        imgSrc: '../../assets/img/dashboard.png',
+        projects: this.props.data.projects,
+        imgSrc: images.dashboard,
         url: this.props.data.projects[0].url,
-        buttons: ["dashboard", "newspocket", "chat", "labwine", "foodmap"]
       }
     }
   
     handleClick(type) {
-      const projects = this.props.data.projects;
-      let imgSrc = "";
-      let url = "";
-
-      projects.forEach(el => {
+      this.state.projects.forEach(el => {
         if (el.name === type) {
-          imgSrc = images.el.name;
-          url = el.url;
+          this.setState({ 
+            imgSrc: `../../assets/img/${el.name}.png`,
+            url: el.url 
+          });
+          console.log(this.state.imgSrc);
         }
       });
-
-      this.setState({ imgSrc, url });
     }
   
     render() {
@@ -38,18 +35,23 @@ class Projects extends Component {
           <h1 className="h1-content">My works</h1>
           <div className="container image-mockup">
             <a 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="live-view"
-            href={this.state.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="live-view"
+              href={this.state.url}
             >
-              <img className="mockup" src={require('../../assets/img/mockup.png')} alt=""/> 
-              <img className="image" src={this.state.imgSrc} alt=""/>
+              <img className="mockup" src={require('../../assets/img/mockup.png')} alt="mockup-computer"/> 
+              <img className="image" src={this.state.imgSrc} alt="project-screenshot"/>
             </a>
           </div>
           <div className="works-options">
-            {this.state.buttons.map((item, index) =>
-              <button key={index} onClick={() => this.handleClick(item)} className="btn works">{item}</button>
+            {this.state.projects.map((item, index) =>
+              <button 
+                key={index} 
+                onClick={() => this.handleClick(item.name)} 
+                className="btn works">
+                {item.name}
+              </button>
             )}
           </div>
           </Fade>
