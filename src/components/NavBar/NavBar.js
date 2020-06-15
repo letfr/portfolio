@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import './NavBar.scss';
 import ScrollIntoView from 'react-scroll-into-view';
 
-function NavItem(props) {
-  return (
-    <button className="nav-item">{props.children}</button>
-  )
-}
-
 class NavBar extends Component {
   constructor(props){
     super(props);
@@ -19,9 +13,9 @@ class NavBar extends Component {
   render() {
     return (
     <nav>
-      {this.state.links.map((item, index) =>
+      {this.state.links.map((item) =>
       <ScrollIntoView id="menu" selector={"#" + item}>
-        <NavItem key={index}>{item}</NavItem>
+        <button key={item} className="nav-item">{item}</button>
       </ScrollIntoView>)}
     </nav>
     )
