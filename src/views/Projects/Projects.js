@@ -10,44 +10,24 @@ class Projects extends Component {
       this.handleClick = this.handleClick.bind(this);
   
       this.state = {
-        imgSrc: images.dashboard,
-        url: 'https://letfr.github.io/data-dashboard/',
-        buttons: ["DASHBOARD", "NEWS-POCKET", "CHAT","ECOMMERCE", "LAB WINE", "FOODMAP"]
+        imgSrc: '../../assets/img/dashboard.png',
+        url: this.props.data.projects[0].url,
+        buttons: ["dashboard", "newspocket", "chat", "labwine", "foodmap"]
       }
     }
   
     handleClick(type) {
+      const projects = this.props.data.projects;
       let imgSrc = "";
       let url = "";
-      switch (type) {
-        case "NEWS-POCKET":
-          imgSrc = images.newspocket;
-          url = 'https://news-pocket.herokuapp.com/';
-          break;
-        case "DASHBOARD":
-          imgSrc = images.dashboard;
-          url = 'https://letfr.github.io/data-dashboard/';
-          break;
-        case "CHAT":
-          imgSrc = images.chat;
-          url = 'https://chat-maluco.herokuapp.com/';
-          break;
-        case "ECOMMERCE":
-          imgSrc = images.ecommerce;
-          url = 'https://github.com/letfr/ecommerce-spa';
-          break;
-        case "FOODMAP":
-          imgSrc = images.foodmap;
-          url = 'https://letfr.github.io/foodmap/';
-          break;
-        case "LAB WINE":
-          imgSrc = images.labwine;
-          url = 'https://letfr.github.io/rede-social/';
-          break;
-        default: 
-          imgSrc = "";
-          url = "";
-      };
+
+      projects.forEach(el => {
+        if (el.name === type) {
+          imgSrc = images.el.name;
+          url = el.url;
+        }
+      });
+
       this.setState({ imgSrc, url });
     }
   

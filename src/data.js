@@ -27,19 +27,24 @@ let data = {
     testing: ["MOCHA & CHAI", "JEST", "CYPRESS"],
   },
   "projects": [{
-    "name": "DASHBOARD",
+    "name": "dashboard",
+    "url": "https://letfr.github.io/data-dashboard/"
   }, 
   {
-    "name": "NEWS-POCKET",
+    "name": "newspocket",
+    "url": "https://news-pocket.herokuapp.com/"
   },
   {
-    "name": "CHAT",
+    "name": "chat",
+    "url": "https://chat-maluco.herokuapp.com/"
   },
   {
-    "name": "LAB WINE",
+    "name": "labwine",
+    "url": "https://letfr.github.io/rede-social/"
   },
   {
-    "name": "FOOD MAP",
+    "name": "foodmap",
+    "url": "https://letfr.github.io/foodmap/"
   }
 
   ],
