@@ -12,7 +12,7 @@ class Projects extends Component {
       this.state = {
         imgSrc: images.dashboard,
         url: 'https://letfr.github.io/data-dashboard/',
-        buttons: ["DASHBOARD", "NEWS-POCKET", "CHAT","ECOMMERCE", "LAB WINE", "FOODMAP"]
+        buttons: ["DASHBOARD", "NEWS-POCKET", "CHAT", "LAB WINE", "FOODMAP"]
       }
     }
   
@@ -31,10 +31,6 @@ class Projects extends Component {
         case "CHAT":
           imgSrc = images.chat;
           url = 'https://chat-maluco.herokuapp.com/';
-          break;
-        case "ECOMMERCE":
-          imgSrc = images.ecommerce;
-          url = 'https://github.com/letfr/ecommerce-spa';
           break;
         case "FOODMAP":
           imgSrc = images.foodmap;
