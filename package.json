@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "gh-pages": "^3.0.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react-addons-test-utils": "^15.6.2",
     "react-app-rewire-eslint": "^0.2.3",
     "react-app-rewired": "^2.1.5",
